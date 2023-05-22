@@ -167,14 +167,12 @@ p {
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
-    position: absolute;
-    margin-left: 195px;
-    margin-top: 183px;
+    margin: 0;
 }
 
 .main-content {
     display: flex;
-    position: absolute;
+    flex-direction: column;
 }
 .main-title {
     font-family: 'Montserrat';
@@ -190,9 +188,7 @@ p {
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
-    position: absolute;
-    margin-left: 195px;
-    margin-top: 225px;
+    margin-top: 35px;
 }
 
 .main-text {
@@ -206,13 +202,11 @@ p {
     flex: none;
     order: 2;
     flex-grow: 0;
-    margin-left: 195px;
-    margin-top: 310px;
+    margin-top: 35px;
     margin-bottom: 35px;
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
-    position: absolute;
     width: 351px;
     height: 60px;
 }
@@ -233,12 +227,9 @@ p {
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
-    position: absolute;
     background: transparent;
     border:none;
     cursor: pointer;
-    margin-top: 410px;
-    margin-left: 195px;
 }
 
 .main-box-Certified-Teacher {
@@ -248,10 +239,7 @@ p {
     align-items: flex-start;
     align-content: space-between;
     flex-wrap: nowrap;
-    margin-top: 160px;
-    margin-left: 732px;
     margin-right: 15px;
-    margin-bottom: 219px;
     padding: 35px 40px;
     gap: 20px;
     width: 249px;
@@ -333,10 +321,7 @@ p {
     align-items: flex-start;
     align-content: space-between;
     flex-wrap: nowrap;
-    margin-top: 160px;
     margin-left: 0px;
-    margin-right: 195px;
-    margin-bottom: 219px;
     padding: 35px 40px;
     gap: 20px;
     width: 249px;
@@ -347,7 +332,10 @@ p {
     order: 0;
     flex-grow: 0;
 }
-
+.main-boxes {
+    display: flex;
+    flex-direction: row;
+}
 .main-box-Expert-instruction-img {
     display: flex;
     flex-direction: column;
@@ -423,29 +411,27 @@ p {
     margin-top: 0;
     margin-left: auto;
     margin-right: auto;
-    display: inline-flex;
-    justify-content: flex-start;
-    align-items: flex-start;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: auto;
 
 }
 .video-left-img {
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
-    position: relative;
 }
 
 .video-left-pic {
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
-    position: relative;
     width: 520px;
     height: 549px;
     flex: none;
     order: 0;
     flex-grow: 0;
-    margin-top: 160px;
 }
 
 .hr-delimiter-video {
@@ -455,6 +441,10 @@ p {
     flex: none;
     order: 0;
     flex-grow: 0;
+    justify-content: flex-start;
+    align-items: flex-start;
+    display: flex;
+    margin: 0;
 }
 
 .video-title {
@@ -470,6 +460,7 @@ p {
     flex: none;
     order: 1;
     flex-grow: 0;
+    margin-top: 35px;
 }
 
 .video-text {
@@ -485,6 +476,7 @@ p {
     flex: none;
     order: 2;
     flex-grow: 0;
+    margin-top: 35px;
 }
 
 .video-button-learn {
@@ -507,4 +499,25 @@ p {
     background: transparent;
     border:none;
     cursor: pointer;
+    margin-top: 35px;
+}
+
+.packages {
+    display: flex;
+    padding-top: 160px;
+    padding-bottom: 220px;
+    justify-content: center;
+    align-items: center;
+}
+.header-bottom-container {
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+}
+.packages-title {
+    width: 510px;
+}
+
+.video-right {
+    margin-left: 144px;
 }
