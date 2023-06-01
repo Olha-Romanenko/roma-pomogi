@@ -521,10 +521,6 @@ p {
     margin-left: 144px;
 }
 
-.Practice-Advice {
-
-}
-
 .list {
     display: flex;
     justify-content: center;
@@ -580,6 +576,7 @@ p {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
+    justify-content: space-between;
 }
 
 .list-item-mg {
@@ -844,7 +841,7 @@ p {
 }
 
 .list-item-mg-right {
-    background-image: url(./img/product-cover-232\ sec-.png)
+    background-image: url(./img/product-cover-232\ sec-.png);
     height: 402px;
     width: 209px;
 }
@@ -1099,4 +1096,125 @@ p {
     text-align: center;
     letter-spacing: 0.2px;
     color: #737373;
+}
+
+.team {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    max-width: 1100px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.team-text {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-top: 112px;
+}
+
+.header-team {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    color: #96BB7C;
+    margin-top: 160px;
+    margin-bottom: 10px;
+}
+
+.main-header-team {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 50px;
+    letter-spacing: 0.2px;
+    color: #252B42;
+    margin-bottom: 10px;
+}
+
+.description-team {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    color: #737373;
+    margin-bottom: 96px;
+}
+
+.photos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.right-photo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0px 13px 19px rgba(0, 0, 0, 0.07);
+    
+}
+
+.Julian-Jameson {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.1px;
+    color: #252B42;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.Profession {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #737373;
+    margin-bottom: 10px;
+}
+
+.facebook {
+    border: none;
+    background-color: transparent;
+}
+
+.inst {
+    border: none;
+    background-color: transparent;
+}
+
+.twitter {
+    border: none;
+    background-color: transparent;
+}
+
+.button-social {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.right-centre-photo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
